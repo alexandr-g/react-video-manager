@@ -4,6 +4,7 @@ import YTSearch from 'youtube-api-search';
 import config from '../app.config';
 import SearchBar from './components/SearchBar';
 import VideoList from './components/VideoList';
+import VideoDetail from './components/VideoDetail';
 const YOUTUBE_API_KEY = config.YOUTUBE_API_KEY;
 
 class App extends Component {
@@ -21,6 +22,7 @@ class App extends Component {
     return (
         <div>
           <SearchBar />
+          <VideoDetail video={this.state.videos[0]} />
           <VideoList videos={this.state.videos} />
         </div>
       );
