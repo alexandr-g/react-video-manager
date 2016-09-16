@@ -1,7 +1,7 @@
 {
   "name": "react-video-manager",
   "version": "1.0.0",
-  "description": "Video manager app with ES6, React and Readux",
+  "description": "Video manager app with ES6 and React",
   "main": "index.js",
   "repository": "",
   "scripts": {
